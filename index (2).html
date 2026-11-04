@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>4 BROTHERS PIZZA | Best Pizza in Town - Quetta</title>
+<!-- Font Awesome Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<!-- Google Fonts: Oswald (Headings) & Plus Jakarta Sans (Body) -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS v3 CDN with plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Configuration -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              yellow: '#FFC800',
+              gold: '#E5A900',
+              charcoal: '#121316',
+              dark: '#0B0C0E',
+              wood: '#2E1A11',
+              neon: '#FFE144'
+            }
+          },
+          fontFamily: {
+            heading: ['Oswald', 'sans-serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif']
+          },
+          boxShadow: {
+            'glow-yellow': '0 0 25px rgba(255, 200, 0, 0.45)',
+            'glow-card': '0 10px 30px -10px rgba(0,0,0,0.7)',
+            'neon-sign': '0 0 10px #FFC800, 0 0 25px rgba(255, 200, 0, 0.6)'
+          }
+        }
+      }
+    }
+  </script>
+<!-- Typography & Base Custom Styling -->
+<style data-purpose="base-styling">
+    body {
+      background-color: #0b0c0e;
+      color: #e5e7eb;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .neon-text-glow {
+      text-shadow: 0 0 8px rgba(255, 200, 0, 0.7), 0 0 18px rgba(255, 180, 0, 0.4);
+    }
+    .wood-border {
+      border-color: #8c532e;
+    }
+  </style>
+</head>
+<body class="bg-brand-dark text-gray-200 antialiased selection:bg-brand-yellow selection:text-black">
+<!-- BEGIN: TopAnnouncementBar -->
+<div class="bg-black/95 border-b border-brand-yellow/20 px-4 py-2 text-xs sm:text-sm" data-purpose="top-announcement">
+<div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+<div class="flex items-center gap-3">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-brand-yellow/10 text-brand-yellow font-semibold text-xs border border-brand-yellow/30">
+<i class="fa-solid fa-clock text-[10px]"></i> Open Daily: 11:00 AM - 12:00 AM (Midnight)
+        </span>
+<span class="hidden md:inline-block text-gray-400">Serving authentic flavours across Quetta</span>
+</div>
+<div class="flex items-center gap-4 text-xs font-medium">
+<span class="text-gray-300 hidden sm:inline">Helpline:</span>
+<a class="text-brand-yellow hover:underline flex items-center gap-1" href="tel:+92812853377">
+<i class="fa-solid fa-phone-volume"></i> +92 81 2853377
+        </a>
+<span class="text-gray-600">|</span>
+<a class="text-brand-yellow hover:underline flex items-center gap-1" href="tel:+923433733272">
+<i class="fa-solid fa-mobile-screen"></i> +92 343 3733272
+        </a>
+</div>
+</div>
+</div>
+<!-- END: TopAnnouncementBar -->
+<!-- BEGIN: MainHeader -->
+<header class="sticky top-0 z-50 bg-[#111216]/95 backdrop-blur-md border-b border-white/10 transition-all duration-300 shadow-xl">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-20">
+<!-- Brand Logo inspired by channel letters -->
+<a class="flex items-center gap-3 group shrink-0" href="#">
+<div class="w-12 h-12 rounded-xl bg-gradient-to-br from-brand-yellow to-brand-gold flex items-center justify-center shadow-glow-yellow text-brand-dark font-heading font-extrabold text-2xl tracking-tighter transition-transform group-hover:scale-105">
+            4B
+          </div>
+<div class="flex flex-col">
+<span class="font-heading text-2xl sm:text-3xl font-extrabold tracking-wider text-brand-yellow leading-none neon-text-glow group-hover:text-white transition-colors whitespace-nowrap">
+              4 BROTHERS
+            </span>
+<span class="text-[10px] sm:text-xs font-bold tracking-[0.25em] text-white uppercase mt-0.5 whitespace-nowrap">
+              Best Pizza In Town
+            </span>
+</div>
+</a>
+<!-- Desktop Navigation Links -->
+<nav class="hidden lg:flex items-center space-x-6 font-medium text-sm text-gray-300">
+<a class="hover:text-brand-yellow transition-colors duration-150" href="#signature-deals">Menu &amp; Deals</a>
+<a class="hover:text-brand-yellow transition-colors duration-150" href="#crown-crust">Crown Crust Specials</a>
+<a class="hover:text-brand-yellow transition-colors duration-150" href="#3d-scroll-animation"><i class="fa-solid fa-cube text-brand-yellow mr-1"></i> 3D Showcase</a>
+<a class="hover:text-brand-yellow transition-colors duration-150" href="#family-dining">Family Dining</a>
+<a class="hover:text-brand-yellow transition-colors duration-150" href="#branches">Quetta Branches</a>
+<a class="hover:text-brand-yellow transition-colors duration-150" href="#fast-food">Fast Food &amp; Sides</a>
+</nav>
+<!-- CTA Action Buttons -->
+<div class="hidden sm:flex items-center gap-3">
+<a class="px-4 py-2.5 rounded-lg border border-brand-yellow/40 text-brand-yellow hover:bg-brand-yellow/10 transition text-sm font-semibold flex items-center gap-2" href="#branches">
+<i class="fa-solid fa-location-dot"></i> Branches
+          </a>
+<a class="px-5 py-2.5 rounded-lg bg-brand-yellow text-black font-heading tracking-wide uppercase text-sm font-bold shadow-glow-yellow hover:bg-white transition-all transform hover:-translate-y-0.5 flex items-center gap-2" href="tel:+92812853377">
+<i class="fa-solid fa-bag-shopping"></i> Order Online
+          </a>
+</div>
+<!-- Mobile Menu Trigger -->
+<div class="flex lg:hidden items-center gap-2">
+<a class="p-2.5 rounded-lg bg-brand-yellow text-black text-sm font-bold" href="tel:+92812853377">
+<i class="fa-solid fa-phone"></i>
+</a>
+<button aria-label="Toggle Navigation Menu" class="p-2.5 rounded-lg border border-white/20 text-white hover:text-brand-yellow hover:border-brand-yellow" id="mobileMenuBtn">
+<i class="fa-solid fa-bars-staggered text-lg"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Mobile Nav Collapsible Panel -->
+<div class="hidden lg:hidden border-t border-white/10 bg-brand-charcoal px-4 pt-3 pb-6 space-y-3" id="mobileMenu">
+<a class="block py-2 text-gray-200 hover:text-brand-yellow font-medium" href="#signature-deals">Menu &amp; Deals</a>
+<a class="block py-2 text-gray-200 hover:text-brand-yellow font-medium" href="#crown-crust">Crown Crust Specials</a>
+<a class="block py-2 text-gray-200 hover:text-brand-yellow font-medium" href="#family-dining">Family Dining (Family Hall)</a>
+<a class="block py-2 text-gray-200 hover:text-brand-yellow font-medium" href="#branches">Quetta Branches Directory</a>
+<a class="block py-2 text-gray-200 hover:text-brand-yellow font-medium" href="#fast-food">Fast Food, Platters &amp; Sides</a>
+<div class="pt-3 border-t border-white/10 flex flex-col gap-2">
+<a class="w-full text-center py-3 bg-brand-yellow text-black font-bold rounded-lg uppercase tracking-wider" href="tel:+92812853377">
+          Call Helpline: +92 81 2853377
+        </a>
+</div>
+</div>
+</header>
+<!-- END: MainHeader -->
+<!-- BEGIN: HeroSection -->
+<section class="relative min-h-[90vh] flex items-center overflow-hidden bg-brand-dark border-b border-white/10">
+<!-- Architectural glow and ambient backlight matching storefront -->
+<div class="absolute inset-0 bg-radial from-brand-yellow/10 via-transparent to-black pointer-events-none"></div>
+<div class="absolute -top-32 -left-32 w-96 h-96 bg-brand-yellow/15 rounded-full blur-3xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 relative z-10 w-full">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Left Column: Copy & Value Proposition -->
+<div class="lg:col-span-7 space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-yellow/10 border border-brand-yellow/30 text-brand-yellow text-xs font-bold uppercase tracking-widest">
+<span class="w-2 h-2 rounded-full bg-brand-yellow animate-ping"></span>
+            Quetta's Premier Pizza Destination
+          </div>
+<h1 class="font-heading text-4xl sm:text-6xl xl:text-7xl font-extrabold uppercase leading-none tracking-tight text-white">
+            4 BROTHERS PIZZA
+            <span class="block text-brand-yellow neon-text-glow mt-2">
+              BEST PIZZA IN TOWN
+            </span>
+</h1>
+<p class="text-base sm:text-lg text-gray-300 max-w-2xl leading-relaxed">
+            Signature Crown Crusts, Sizzling Zingers, Family Platters &amp; Authentic Wood-Fired Taste across Quetta. Experience premium dining with our signature warm ambience and dedicated Family Hall.
+          </p>
+<!-- Badges reflecting the storefront identity -->
+<div class="flex flex-wrap gap-3 py-2">
+<div class="px-4 py-2 rounded-xl bg-white/5 border border-white/10 flex items-center gap-2.5 text-xs sm:text-sm text-gray-200">
+<i class="fa-solid fa-people-roof text-brand-yellow text-base"></i>
+<span>Dedicated <strong>Family Hall</strong> Dining</span>
+</div>
+<div class="px-4 py-2 rounded-xl bg-white/5 border border-white/10 flex items-center gap-2.5 text-xs sm:text-sm text-gray-200">
+<i class="fa-solid fa-motorcycle text-brand-yellow text-base"></i>
+<span>Fast Citywide <strong>Home Delivery</strong></span>
+</div>
+<div class="px-4 py-2 rounded-xl bg-white/5 border border-white/10 flex items-center gap-2.5 text-xs sm:text-sm text-gray-200">
+<i class="fa-solid fa-box-open text-brand-yellow text-base"></i>
+<span>Express <strong>Takeaway</strong></span>
+</div>
+</div>
+<!-- CTAs -->
+<div class="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+<a class="px-8 py-4 rounded-xl bg-brand-yellow text-black font-heading font-extrabold tracking-wider text-base uppercase shadow-glow-yellow hover:bg-white transition-all text-center flex items-center justify-center gap-2" href="#signature-deals">
+<i class="fa-solid fa-fire-burner"></i> Explore Menu &amp; Deals
+            </a>
+<a class="px-7 py-4 rounded-xl border-2 border-white/20 hover:border-brand-yellow text-white hover:text-brand-yellow font-heading font-semibold text-base uppercase transition-all text-center flex items-center justify-center gap-2" href="#branches">
+<i class="fa-solid fa-store"></i> Find Nearest Branch
+            </a>
+</div>
+<!-- Quick trust note -->
+<div class="pt-4 border-t border-white/10 flex items-center gap-6 text-xs text-gray-400">
+<div><strong class="text-white">5+ Hubs</strong> in Quetta City</div>
+<span class="text-gray-700">&bull;</span>
+<div><strong class="text-white">Fresh Dough</strong> Hand-Stretched Daily</div>
+<span class="text-gray-700">&bull;</span>
+<div><strong class="text-white">Halal &amp; Pure</strong> Premium Ingredients</div>
+</div>
+</div>
+<!-- Right Column: Visual Reference Showcase Card -->
+<div class="lg:col-span-5 relative">
+<div class="relative mx-auto max-w-md rounded-3xl p-3 bg-gradient-to-b from-brand-yellow/30 via-white/10 to-transparent border border-brand-yellow/40 shadow-glow-yellow">
+<div class="relative rounded-2xl overflow-hidden bg-brand-charcoal group">
+<!-- Storefront Photo from DataStore -->
+<img alt="4 Brothers Pizza storefront with vibrant yellow channel lettering, family hall entrance and warm modern architectural facade" class="w-full h-[460px] object-cover object-center group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmUmVEW57skhiRYK7uaWdGN8NobpajRIGPjfDuqT_7NvqRdE6-D_phgTIiDK_5CU8BQs0T4E-o8r2g35eykoGzqy4TOGF7P40sX6q0l90dtadnHgm5BS4qZQGclcsAEe-kW8xmMgUSaYqRDMIicDn-9YxkEaRS1zYj3uAjzw8Zi_Er7Vbo1siWG2z4nhPkiWFOWEKnl2HwdWzbYvhNa1Htw18dIP3mtsZskUE668E"/>
+<!-- Gradient overlay to emphasize storefront neon aesthetic -->
+<div class="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent"></div>
+<!-- Overlaid badge representing the visual elements from the photo -->
+<div class="absolute top-4 left-4 bg-black/80 backdrop-blur-md border border-brand-yellow/50 rounded-xl px-3.5 py-1.5 flex items-center gap-2 shadow-lg">
+<span class="w-2.5 h-2.5 rounded-full bg-brand-yellow animate-pulse"></span>
+<span class="font-heading tracking-wider text-xs uppercase text-brand-yellow font-bold">Quetta Flagship Exterior</span>
+</div>
+<!-- Floating highlight box for Deal 2 (Seen in the store front banner) -->
+<div class="absolute bottom-4 left-4 right-4 bg-black/90 backdrop-blur-md rounded-xl p-3.5 border border-brand-yellow/60 shadow-2xl">
+<div class="flex items-center justify-between">
+<div>
+<span class="text-[10px] uppercase font-extrabold tracking-widest text-brand-yellow bg-brand-yellow/10 px-2 py-0.5 rounded">Storefront Live Special</span>
+<h2 class="text-white font-heading text-lg font-bold mt-1">DEAL 2: 3 Zinger + 1 Fries + 1.5L</h2>
+<p class="text-xs text-gray-300">"Every Slice Counts" &bull; Dine-In &amp; Takeaway</p>
+</div>
+<div class="text-right">
+<span class="text-xs text-gray-400 block line-through">Rs 1850</span>
+<span class="text-xl font-heading font-extrabold text-brand-yellow">Rs 1,500</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: HeroSection -->
+
+<!-- ========================================================================= -->
+<!-- 3D INTERACTIVE CANVAS SCROLL DECONSTRUCTION EXPERIENCE                   -->
+<!-- ========================================================================= -->
+<section class="relative w-full bg-[#0b0c0e] border-y border-brand-yellow/30" id="3d-scroll-animation" style="height: 480vh;">
+  <!-- Sticky Viewport Stage -->
+  <div class="sticky top-0 left-0 w-full h-screen overflow-hidden flex items-center justify-center bg-[#0b0c0e] z-10">
+    <canvas id="pizza-canvas" class="w-full h-full block"></canvas>
+
+    <!-- Cinematic Radial Vignette -->
+    <div class="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_50%_50%,rgba(11,12,14,0)_30%,rgba(11,12,14,0.65)_70%,rgba(11,12,14,0.95)_100%)]"></div>
+
+    <!-- Interactive Storytelling Chapters (Glides smoothly with scroll) -->
+    <div class="absolute inset-0 max-w-7xl mx-auto px-6 pointer-events-none flex items-center justify-between z-20">
+      
+      <!-- Chapter 1 (0% - 20%) -->
+      <div id="story-chap-1" class="story-card transition-all duration-700 max-w-md bg-brand-charcoal/90 backdrop-blur-md p-6 rounded-2xl border border-brand-yellow/40 shadow-glow-yellow opacity-0 translate-y-8">
+        <span class="text-xs font-bold text-brand-yellow tracking-[0.2em] uppercase bg-brand-yellow/10 px-3 py-1 rounded-full border border-brand-yellow/20">Phase 01</span>
+        <h3 class="font-heading text-3xl font-extrabold text-white uppercase mt-2">72-Hour Sourdough</h3>
+        <p class="text-sm text-gray-300 mt-1 leading-relaxed">
+          Naturally leavened living dough fermented cold for 72 hours, delivering an impossibly light, cloud-soft crust.
+        </p>
+      </div>
+
+      <!-- Chapter 2 (30% - 60%) -->
+      <div id="story-chap-2" class="story-card transition-all duration-700 max-w-md bg-brand-charcoal/90 backdrop-blur-md p-6 rounded-2xl border border-brand-yellow/40 shadow-glow-yellow opacity-0 translate-y-8 ml-auto">
+        <span class="text-xs font-bold text-brand-yellow tracking-[0.2em] uppercase bg-brand-yellow/10 px-3 py-1 rounded-full border border-brand-yellow/20">Phase 02</span>
+        <h3 class="font-heading text-3xl font-extrabold text-white uppercase mt-2">Explosion of Flavors</h3>
+        <p class="text-sm text-gray-300 mt-1 leading-relaxed">
+          San Marzano sauce, fiery Tikka chunks, bell peppers, Kalamata olives, and fresh botanicals bursting in mid-air.
+        </p>
+      </div>
+
+      <!-- Chapter 3 (70% - 100%) -->
+      <div id="story-chap-3" class="story-card transition-all duration-700 max-w-md bg-brand-charcoal/90 backdrop-blur-md p-6 rounded-2xl border border-brand-yellow/40 shadow-glow-yellow opacity-0 translate-y-8 mx-auto text-center">
+        <span class="text-xs font-bold text-brand-yellow tracking-[0.2em] uppercase bg-brand-yellow/10 px-3 py-1 rounded-full border border-brand-yellow/20">Phase 03</span>
+        <h3 class="font-heading text-3xl font-extrabold text-white uppercase mt-2">Live 850Â°F Wood Fire</h3>
+        <p class="text-sm text-gray-300 mt-1 leading-relaxed">
+          Flash-baked in authentic stone kilns for 90 seconds. The signature blistered leopard cornicione awaits you!
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Floating Scroll Indicator -->
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 pointer-events-none text-brand-yellow z-30">
+      <span class="text-[11px] font-bold tracking-[0.25em] uppercase text-brand-yellow font-heading drop-shadow-[0_2px_10px_rgba(255,200,0,0.5)]">
+        Scroll To Deconstruct 3D Pizza
+      </span>
+      <div class="w-6 h-10 border-2 border-brand-yellow rounded-xl relative flex justify-center p-1 shadow-[0_0_15px_rgba(255,200,0,0.35)]">
+        <div class="w-1.5 h-2.5 bg-brand-yellow rounded-full animate-bounce"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- END: 3D INTERACTIVE CANVAS SCROLL DECONSTRUCTION EXPERIENCE -->
+<!-- BEGIN: HighlightDealBanner -->
+<section class="py-8 bg-gradient-to-r from-brand-charcoal via-[#191b20] to-brand-charcoal border-y border-brand-yellow/20 relative">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row items-center justify-between gap-6 bg-brand-dark/80 p-6 md:p-8 rounded-2xl border border-brand-yellow/30 shadow-xl">
+<div class="flex items-center gap-5">
+<div class="w-16 h-16 rounded-2xl bg-brand-yellow/10 border border-brand-yellow flex items-center justify-center text-brand-yellow text-3xl">
+<i class="fa-solid fa-burger"></i>
+</div>
+<div>
+<span class="text-xs font-bold uppercase tracking-wider text-brand-yellow">Featured Walk-in Deal From Storefront</span>
+<h2 class="font-heading text-2xl md:text-3xl font-extrabold text-white uppercase">
+              DEAL 2: 3 Zinger Burgers + 1 Large Fries + 1.5L Drink
+            </h2>
+<p class="text-sm text-gray-300">Crispy fried perfection with the authentic 4 Brothers spicy kick.</p>
+</div>
+</div>
+<div class="flex items-center gap-6 self-stretch md:self-auto justify-between md:justify-end">
+<div class="text-right">
+<span class="text-xs uppercase text-gray-400 block">All-Inclusive Price</span>
+<span class="font-heading text-3xl md:text-4xl font-extrabold text-brand-yellow neon-text-glow">Rs 1,500</span>
+</div>
+<a class="px-6 py-3.5 bg-brand-yellow text-black font-heading font-bold uppercase text-sm rounded-xl hover:bg-white transition whitespace-nowrap shadow-glow-yellow" href="tel:+92812853377">
+            Order This Deal
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- END: HighlightDealBanner -->
+<!-- BEGIN: CrownCrustSpecials -->
+<section class="py-20 relative bg-brand-dark" id="crown-crust">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Section Title -->
+<div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+<span class="text-xs font-bold text-brand-yellow tracking-[0.2em] uppercase bg-brand-yellow/10 px-3 py-1 rounded-full border border-brand-yellow/20">
+          The 4 Brothers Masterpiece
+        </span>
+<h2 class="font-heading text-3xl sm:text-5xl font-extrabold uppercase text-white">
+          Signature Crown Crust Pizzas
+        </h2>
+<p class="text-gray-400 text-sm sm:text-base">
+          Loaded with cheese stuffed meatballs in each crown peak, hand-kneaded dough, and secret Balochistan-infused spice profiles.
+        </p>
+</div>
+<!-- Grid of Pizzas -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Pizza Card 1 -->
+<div class="bg-brand-charcoal rounded-2xl overflow-hidden border border-white/10 hover:border-brand-yellow/50 transition-all duration-300 group flex flex-col justify-between">
+<div class="p-6 space-y-4">
+<div class="flex justify-between items-start">
+<span class="px-2.5 py-1 rounded bg-brand-yellow/20 text-brand-yellow text-xs font-bold uppercase tracking-wider border border-brand-yellow/30">Chef's Signature</span>
+<span class="font-heading text-xl font-bold text-brand-yellow">From Rs 1,450</span>
+</div>
+<h3 class="font-heading text-2xl font-bold text-white group-hover:text-brand-yellow transition-colors">
+              Famous Royal Crown Crust
+            </h3>
+<p class="text-gray-400 text-sm leading-relaxed">
+              Golden pull-apart cheesy pockets baked around succulent smoked chicken chunks, jalapenos, mushrooms, black olives &amp; premium mozzarella.
+            </p>
+<div class="flex flex-wrap gap-2 pt-2 text-xs text-gray-300">
+<span class="bg-white/5 px-2.5 py-1 rounded-md">Reg / Med / Large</span>
+<span class="bg-white/5 px-2.5 py-1 rounded-md">Cheese Burst Cones</span>
+</div>
+</div>
+<div class="px-6 pb-6 pt-2 border-t border-white/5 flex items-center justify-between">
+<span class="text-xs text-brand-yellow font-semibold"><i class="fa-solid fa-award"></i> Most Popular</span>
+<a class="px-4 py-2 bg-brand-yellow/10 hover:bg-brand-yellow text-brand-yellow hover:text-black font-heading text-xs font-bold rounded-lg transition uppercase" href="tel:+92812853377">
+              Order Now
+            </a>
+</div>
+</div>
+<!-- Pizza Card 2 -->
+<div class="bg-brand-charcoal rounded-2xl overflow-hidden border border-white/10 hover:border-brand-yellow/50 transition-all duration-300 group flex flex-col justify-between">
+<div class="p-6 space-y-4">
+<div class="flex justify-between items-start">
+<span class="px-2.5 py-1 rounded bg-red-500/20 text-red-400 text-xs font-bold uppercase tracking-wider border border-red-500/30">Local Favorite</span>
+<span class="font-heading text-xl font-bold text-brand-yellow">From Rs 1,350</span>
+</div>
+<h3 class="font-heading text-2xl font-bold text-white group-hover:text-brand-yellow transition-colors">
+              Chicken Tikka &amp; Fajita Sicilian
+            </h3>
+<p class="text-gray-400 text-sm leading-relaxed">
+              Traditional spicy chargrilled tikka breast fillet with onions, fresh capsicum, chili flakes, and double mozzarella layers.
+            </p>
+<div class="flex flex-wrap gap-2 pt-2 text-xs text-gray-300">
+<span class="bg-white/5 px-2.5 py-1 rounded-md">Spicy Ting</span>
+<span class="bg-white/5 px-2.5 py-1 rounded-md">BOGO Eligible Days</span>
+</div>
+</div>
+<div class="px-6 pb-6 pt-2 border-t border-white/5 flex items-center justify-between">
+<span class="text-xs text-gray-400"><i class="fa-solid fa-pepper-hot text-red-500"></i> Medium Spice</span>
+<a class="px-4 py-2 bg-brand-yellow/10 hover:bg-brand-yellow text-brand-yellow hover:text-black font-heading text-xs font-bold rounded-lg transition uppercase" href="tel:+92812853377">
+              Order Now
+            </a>
+</div>
+</div>
+<!-- Pizza Card 3 -->
+<div class="bg-brand-charcoal rounded-2xl overflow-hidden border border-white/10 hover:border-brand-yellow/50 transition-all duration-300 group flex flex-col justify-between">
+<div class="p-6 space-y-4">
+<div class="flex justify-between items-start">
+<span class="px-2.5 py-1 rounded bg-white/10 text-white text-xs font-bold uppercase tracking-wider border border-white/20">Gourmet Choice</span>
+<span class="font-heading text-xl font-bold text-brand-yellow">From Rs 1,400</span>
+</div>
+<h3 class="font-heading text-2xl font-bold text-white group-hover:text-brand-yellow transition-colors">
+              Creamy White Sauce &amp; BBQ Feast
+            </h3>
+<p class="text-gray-400 text-sm leading-relaxed">
+              Rich Alfredo cream drizzle combined with smoky barbecue glazed tender chicken cuts, bell peppers, oregano &amp; parmesan herbs.
+            </p>
+<div class="flex flex-wrap gap-2 pt-2 text-xs text-gray-300">
+<span class="bg-white/5 px-2.5 py-1 rounded-md">Mild &amp; Rich</span>
+<span class="bg-white/5 px-2.5 py-1 rounded-md">Italian Herbs</span>
+</div>
+</div>
+<div class="px-6 pb-6 pt-2 border-t border-white/5 flex items-center justify-between">
+<span class="text-xs text-gray-400"><i class="fa-solid fa-cheese text-brand-yellow"></i> Extra Cheesy</span>
+<a class="px-4 py-2 bg-brand-yellow/10 hover:bg-brand-yellow text-brand-yellow hover:text-black font-heading text-xs font-bold rounded-lg transition uppercase" href="tel:+92812853377">
+              Order Now
+            </a>
+</div>
+</div>
+</div>
+<!-- BOGO Special Banner Callout -->
+<div class="mt-12 bg-gradient-to-r from-amber-600/20 via-brand-yellow/10 to-transparent p-6 rounded-2xl border border-brand-yellow/30 flex flex-col sm:flex-row items-center justify-between gap-4">
+<div class="flex items-center gap-4">
+<span class="text-3xl text-brand-yellow"><i class="fa-solid fa-ticket-simple"></i></span>
+<div>
+<h3 class="font-heading text-lg font-bold text-white uppercase">Special BOGO (Buy-One-Get-One) Specials</h3>
+<p class="text-xs sm:text-sm text-gray-300">Ask operator for current weekday Buy-One-Get-One pizza promotions valid across all Quetta branches.</p>
+</div>
+</div>
+<a class="px-6 py-2.5 rounded-lg bg-white/10 hover:bg-white text-white hover:text-black font-heading text-xs font-bold uppercase transition whitespace-nowrap" href="tel:+92812853377">
+          Inquire BOGO Deals
+        </a>
+</div>
+</div>
+</section>
+<!-- END: CrownCrustSpecials -->
+<!-- BEGIN: FastFoodAndPlatters -->
+<section class="py-20 bg-brand-charcoal border-t border-white/5" id="fast-food">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+<div>
+<span class="text-xs font-bold text-brand-yellow tracking-[0.2em] uppercase bg-brand-yellow/10 px-3 py-1 rounded-full border border-brand-yellow/20">
+            More than just pizza
+          </span>
+<h2 class="font-heading text-3xl sm:text-5xl font-extrabold uppercase text-white mt-2">
+            Burgers, Platters &amp; Sides
+          </h2>
+</div>
+<p class="text-gray-400 text-sm max-w-md mt-4 md:mt-0">
+          From golden crunchy fried chicken to sizzling steaks and loaded pizza fries.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Item 1: 4B Special Platter -->
+<div class="bg-brand-dark p-6 rounded-2xl border border-white/10 flex flex-col justify-between hover:border-brand-yellow/40 transition">
+<div>
+<div class="flex justify-between items-start mb-3">
+<span class="text-xs font-bold text-brand-yellow uppercase tracking-wider">Sharing Box</span>
+<span class="font-heading font-extrabold text-xl text-white">PKR 1,099</span>
+</div>
+<h3 class="font-heading text-xl font-bold text-white mb-2">4B Special Platter</h3>
+<p class="text-xs text-gray-400 leading-relaxed mb-4">
+              Zinger cuts, hot wings, crispy chicken tenders, loaded spiced fries &amp; signature mayo-garlic dip.
+            </p>
+</div>
+<a class="w-full text-center py-2.5 rounded-lg border border-white/20 hover:bg-brand-yellow hover:border-brand-yellow hover:text-black text-xs font-bold font-heading uppercase transition" href="tel:+92812853377">
+            Order Platter
+          </a>
+</div>
+<!-- Item 2: Zinger Combo -->
+<div class="bg-brand-dark p-6 rounded-2xl border border-white/10 flex flex-col justify-between hover:border-brand-yellow/40 transition">
+<div>
+<div class="flex justify-between items-start mb-3">
+<span class="text-xs font-bold text-brand-yellow uppercase tracking-wider">Crispy Supreme</span>
+<span class="font-heading font-extrabold text-xl text-white">PKR 999</span>
+</div>
+<h3 class="font-heading text-xl font-bold text-white mb-2">Zinger Combo with Fries &amp; Drink</h3>
+<p class="text-xs text-gray-400 leading-relaxed mb-4">
+              Extra crunchy deep-fried chicken breast, secret spicy dressing, toasted sesame bun with fries &amp; soda.
+            </p>
+</div>
+<a class="w-full text-center py-2.5 rounded-lg border border-white/20 hover:bg-brand-yellow hover:border-brand-yellow hover:text-black text-xs font-bold font-heading uppercase transition" href="tel:+92812853377">
+            Order Combo
+          </a>
+</div>
+<!-- Item 3: Loaded Pizza Fries -->
+<div class="bg-brand-dark p-6 rounded-2xl border border-white/10 flex flex-col justify-between hover:border-brand-yellow/40 transition">
+<div>
+<div class="flex justify-between items-start mb-3">
+<span class="text-xs font-bold text-brand-yellow uppercase tracking-wider">Side Delight</span>
+<span class="font-heading font-extrabold text-xl text-white">PKR 650</span>
+</div>
+<h3 class="font-heading text-xl font-bold text-white mb-2">Loaded Pizza Fries &amp; Wings</h3>
+<p class="text-xs text-gray-400 leading-relaxed mb-4">
+              Crisp fries smothered in pizza sauce, mozzarella melt, chicken chunks, jalapenos and spicy wings.
+            </p>
+</div>
+<a class="w-full text-center py-2.5 rounded-lg border border-white/20 hover:bg-brand-yellow hover:border-brand-yellow hover:text-black text-xs font-bold font-heading uppercase transition" href="tel:+92812853377">
+            Add to Order
+          </a>
+</div>
+<!-- Item 4: Steaks & Finger Fish -->
+<div class="bg-brand-dark p-6 rounded-2xl border border-white/10 flex flex-col justify-between hover:border-brand-yellow/40 transition">
+<div>
+<div class="flex justify-between items-start mb-3">
+<span class="text-xs font-bold text-brand-yellow uppercase tracking-wider">Chef Specials</span>
+<span class="font-heading font-extrabold text-xl text-white">PKR 1,250</span>
+</div>
+<h3 class="font-heading text-xl font-bold text-white mb-2">Chicken Steak &amp; Finger Fish</h3>
+<p class="text-xs text-gray-400 leading-relaxed mb-4">
+              Sizzling grilled chicken steak with mushroom pepper sauce or seasonal crispy golden batter finger fish.
+            </p>
+</div>
+<a class="w-full text-center py-2.5 rounded-lg border border-white/20 hover:bg-brand-yellow hover:border-brand-yellow hover:text-black text-xs font-bold font-heading uppercase transition" href="tel:+92812853377">
+            Select Entree
+          </a>
+</div>
+</div>
+<!-- Quick summary list of additional sides -->
+<div class="mt-8 pt-6 border-t border-white/5 flex flex-wrap justify-between items-center gap-4 text-xs text-gray-400">
+<div><strong>Also available:</strong> Garlic Bread with Cheese &bull; Fresh Hot Soups &bull; Smashed Burgers &bull; Chicken Nuggets &bull; Cold Beverages</div>
+<div class="text-brand-yellow"><i class="fa-solid fa-phone"></i> Dial +92 81 2853377 for full customized deals</div>
+</div>
+</div>
+</section>
+<!-- END: FastFoodAndPlatters -->
+<!-- BEGIN: FamilyDiningExperience -->
+<section class="py-20 relative bg-brand-dark border-t border-white/10 overflow-hidden" id="family-dining">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Left: Family Hall Philosophy with wood-trimmed design inspired by storefront -->
+<div class="lg:col-span-6 space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-bold uppercase tracking-wider">
+<i class="fa-solid fa-door-open"></i> Private &amp; Respectful Ambience
+          </div>
+<h2 class="font-heading text-3xl sm:text-5xl font-extrabold uppercase text-white leading-tight">
+            Dedicated Family Hall Dining In Quetta
+          </h2>
+<p class="text-gray-300 text-sm sm:text-base leading-relaxed">
+            As highlighted on our signature wooden-framed entrance ("FAMILY HALL"), 4 Brothers Pizza takes utmost pride in providing a warm, secure, and comfortable atmosphere tailored specially for families, gatherings, and celebrations.
+          </p>
+<div class="space-y-4 pt-2">
+<div class="flex items-start gap-3.5">
+<div class="w-8 h-8 rounded-lg bg-brand-yellow/10 border border-brand-yellow/30 flex items-center justify-center text-brand-yellow shrink-0 mt-0.5">
+<i class="fa-solid fa-shield-halved"></i>
+</div>
+<div>
+<h3 class="text-white font-bold text-sm">Strictly Reserved Family Section</h3>
+<p class="text-gray-400 text-xs">Separate partition and entrance ensuring peace, privacy, and traditional hospitality.</p>
+</div>
+</div>
+<div class="flex items-start gap-3.5">
+<div class="w-8 h-8 rounded-lg bg-brand-yellow/10 border border-brand-yellow/30 flex items-center justify-center text-brand-yellow shrink-0 mt-0.5">
+<i class="fa-solid fa-cake-candles"></i>
+</div>
+<div>
+<h3 class="text-white font-bold text-sm">Birthdays &amp; Party Reservations</h3>
+<p class="text-gray-400 text-xs">Royal Crown Feasts, shared platters, and custom party setups available upon reservation.</p>
+</div>
+</div>
+<div class="flex items-start gap-3.5">
+<div class="w-8 h-8 rounded-lg bg-brand-yellow/10 border border-brand-yellow/30 flex items-center justify-center text-brand-yellow shrink-0 mt-0.5">
+<i class="fa-solid fa-snowflake"></i>
+</div>
+<div>
+<h3 class="text-white font-bold text-sm">Climate Controlled &amp; Comfortable</h3>
+<p class="text-gray-400 text-xs">Modern lighting, soothing ambience, and quick attentive table service.</p>
+</div>
+</div>
+</div>
+<div class="pt-4 flex flex-wrap gap-4">
+<a class="px-6 py-3 rounded-xl bg-brand-yellow text-black font-heading font-bold uppercase text-sm hover:bg-white transition flex items-center gap-2" href="tel:+92812853377">
+<i class="fa-solid fa-calendar-check"></i> Reserve Family Table
+            </a>
+<span class="text-xs text-gray-400 self-center">Walk-ins always welcome daily from 11:00 AM</span>
+</div>
+</div>
+<!-- Right: Decorative Architectural Card reflecting storefront details -->
+<div class="lg:col-span-6">
+<div class="p-8 rounded-3xl bg-brand-charcoal border-2 border-brand-yellow/30 shadow-2xl relative">
+<div class="text-center pb-6 border-b border-white/10">
+<span class="text-xs uppercase font-extrabold tracking-widest text-brand-yellow">Warm Architectural Experience</span>
+<h3 class="font-heading text-3xl font-extrabold text-white mt-1">THE 4 BROTHERS STANDARD</h3>
+</div>
+<div class="grid grid-cols-2 gap-4 my-6">
+<div class="p-4 rounded-xl bg-black/50 border border-white/5 text-center">
+<span class="font-heading text-3xl font-extrabold text-brand-yellow block">100%</span>
+<span class="text-xs text-gray-300">Fresh Mozzarella</span>
+</div>
+<div class="p-4 rounded-xl bg-black/50 border border-white/5 text-center">
+<span class="font-heading text-3xl font-extrabold text-brand-yellow block">30 Min</span>
+<span class="text-xs text-gray-300">Average Delivery Time</span>
+</div>
+<div class="p-4 rounded-xl bg-black/50 border border-white/5 text-center">
+<span class="font-heading text-3xl font-extrabold text-brand-yellow block">5+</span>
+<span class="text-xs text-gray-300">Quetta Locations</span>
+</div>
+<div class="p-4 rounded-xl bg-black/50 border border-white/5 text-center">
+<span class="font-heading text-3xl font-extrabold text-brand-yellow block">Late</span>
+<span class="text-xs text-gray-300">Open Till 12:00 Midnight</span>
+</div>
+</div>
+<div class="p-4 rounded-xl bg-brand-yellow/10 border border-brand-yellow/20 flex items-center gap-3">
+<i class="fa-solid fa-quote-left text-brand-yellow text-xl"></i>
+<p class="text-xs italic text-gray-200">
+                "Best pizza crust in Quetta! The Crown Crust with family in their dedicated hall is our weekend tradition."
+              </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: FamilyDiningExperience -->
+<!-- BEGIN: QuettaBranchesDirectory -->
+<section class="py-20 bg-brand-charcoal border-t border-white/10" id="branches">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+<span class="text-xs font-bold text-brand-yellow tracking-[0.2em] uppercase bg-brand-yellow/10 px-3 py-1 rounded-full border border-brand-yellow/20">
+          Find Us in Quetta
+        </span>
+<h2 class="font-heading text-3xl sm:text-5xl font-extrabold uppercase text-white">
+          Our Quetta Branches Directory
+        </h2>
+<p class="text-gray-400 text-sm sm:text-base">
+          Visit our modern restaurants or call the direct branch hotline for fastest doorstep delivery.
+        </p>
+</div>
+<!-- Main Branches Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Branch 1: Spinny Road (Flagship) -->
+<div class="bg-brand-dark rounded-2xl p-6 border-2 border-brand-yellow/40 relative shadow-glow-card flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-start mb-2">
+<span class="px-2.5 py-0.5 rounded bg-brand-yellow text-black text-[11px] font-extrabold uppercase">Main / Flagship</span>
+<span class="text-xs text-green-400 font-semibold flex items-center gap-1"><i class="fa-solid fa-circle text-[8px]"></i> Open Now</span>
+</div>
+<h3 class="font-heading text-2xl font-bold text-white mt-2">Spinny Road Branch</h3>
+<p class="text-xs text-gray-400 mt-1 mb-4 flex items-center gap-1.5">
+<i class="fa-solid fa-location-pin text-brand-yellow"></i> Spinny Road, Quetta City
+            </p>
+<div class="space-y-1.5 text-xs text-gray-300 border-t border-white/10 pt-3">
+<div class="flex items-center gap-2">
+<i class="fa-solid fa-clock text-gray-500 w-4"></i> 11:00 AM - 12:00 AM (Midnight)
+              </div>
+<div class="flex items-center gap-2">
+<i class="fa-solid fa-utensils text-gray-500 w-4"></i> Dine-In (Family Hall), Takeaway &amp; Delivery
+              </div>
+</div>
+</div>
+<div class="pt-6">
+<a class="w-full py-3 bg-brand-yellow hover:bg-white text-black font-heading font-bold text-xs uppercase rounded-xl transition flex items-center justify-center gap-2" href="tel:+92812853377">
+<i class="fa-solid fa-phone"></i> Call: +92 81 2853377
+            </a>
+</div>
+</div>
+<!-- Branch 2: Sariab Road Branch -->
+<div class="bg-brand-dark rounded-2xl p-6 border-2 border-brand-yellow/40 relative shadow-glow-card flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-start mb-2">
+<span class="px-2.5 py-0.5 rounded bg-brand-yellow text-black text-[11px] font-extrabold uppercase">Sariab Road Hub</span>
+<span class="text-xs text-green-400 font-semibold flex items-center gap-1"><i class="fa-solid fa-circle text-[8px]"></i> Open Now</span>
+</div>
+<h3 class="font-heading text-2xl font-bold text-white mt-2">Sariab Road Branch</h3>
+<p class="text-xs text-gray-400 mt-1 mb-4 flex items-center gap-1.5">
+<i class="fa-solid fa-location-pin text-brand-yellow"></i> 5XHV+4R8, Sariab Rd, near Lala Super Store, Quetta
+            </p>
+<div class="space-y-1.5 text-xs text-gray-300 border-t border-white/10 pt-3">
+<div class="flex items-center gap-2">
+<i class="fa-solid fa-clock text-gray-500 w-4"></i> 11:00 AM - 12:00 AM (Midnight)
+              </div>
+<div class="flex items-center gap-2">
+<i class="fa-solid fa-money-bill-wave text-brand-yellow w-4"></i> Service: Cash Only
+              </div>
+<div class="flex items-center gap-2">
+<i class="fa-solid fa-utensils text-gray-500 w-4"></i> Dine-In (Family Hall), Takeaway &amp; Delivery
+              </div>
+</div>
+</div>
+<div class="pt-6">
+<a class="w-full py-3 bg-brand-yellow hover:bg-white text-black font-heading font-bold text-xs uppercase rounded-xl transition flex items-center justify-center gap-2" href="tel:03352451616">
+<i class="fa-solid fa-phone"></i> Call: 0335 2451616
+            </a>
+</div>
+</div>
+<!-- Branch 3: Millennium Mall Branch -->
+<div class="bg-brand-dark rounded-2xl p-6 border border-white/10 hover:border-brand-yellow/40 transition flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-start mb-2">
+<span class="px-2.5 py-0.5 rounded bg-white/10 text-gray-300 text-[11px] font-bold uppercase">Shopping Food Court</span>
+<span class="text-xs text-green-400 font-semibold flex items-center gap-1"><i class="fa-solid fa-circle text-[8px]"></i> Open Now</span>
+</div>
+<h3 class="font-heading text-2xl font-bold text-white mt-2">Millennium Mall Branch</h3>
+<p class="text-xs text-gray-400 mt-1 mb-4 flex items-center gap-1.5">
+<i class="fa-solid fa-location-pin text-brand-yellow"></i> Food Court, Millennium Mall, Shahrah-e-Iqbal
+            </p>
+<div class="space-y-1.5 text-xs text-gray-300 border-t border-white/10 pt-3">
+<div class="flex items-center gap-2">
+<i class="fa-solid fa-clock text-gray-500 w-4"></i> Mall Hours (11:00 AM - Midnight)
+              </div>
+<div class="flex items-center gap-2">
+<i class="fa-solid fa-utensils text-gray-500 w-4"></i> Food Court Dining &amp; Quick Takeaway
+              </div>
+</div>
+</div>
+<div class="pt-6">
+<a class="w-full py-3 bg-white/10 hover:bg-brand-yellow hover:text-black text-white font-heading font-bold text-xs uppercase rounded-xl transition flex items-center justify-center gap-2" href="tel:+92812828843">
+<i class="fa-solid fa-phone"></i> Call: +92 81 2828843
+            </a>
+</div>
+</div>
+<!-- Branch 4: Nawakilli Bypass Branch -->
+<div class="bg-brand-dark rounded-2xl p-6 border border-white/10 hover:border-brand-yellow/40 transition flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-start mb-2">
+<span class="px-2.5 py-0.5 rounded bg-white/10 text-gray-300 text-[11px] font-bold uppercase">Bypass Ring</span>
+<span class="text-xs text-green-400 font-semibold flex items-center gap-1"><i class="fa-solid fa-circle text-[8px]"></i> Open Now</span>
+</div>
+<h3 class="font-heading text-2xl font-bold text-white mt-2">Nawakilli Bypass Branch</h3>
+<p class="text-xs text-gray-400 mt-1 mb-4 flex items-center gap-1.5">
+<i class="fa-solid fa-location-pin text-brand-yellow"></i> Bypass Road, Near Nawa Killi, Quetta
+            </p>
+<div class="space-y-1.5 text-xs text-gray-300 border-t border-white/10 pt-3">
+<div class="flex items-center gap-2">
+<i class="fa-solid fa-clock text-gray-500 w-4"></i> 11:00 AM - 12:00 AM (Midnight)
+              </div>
+<div class="flex items-center gap-2">
+<i class="fa-solid fa-utensils text-gray-500 w-4"></i> Drive-by Takeaway &amp; Quick Delivery
+              </div>
+</div>
+</div>
+<div class="pt-6">
+<a class="w-full py-3 bg-white/10 hover:bg-brand-yellow hover:text-black text-white font-heading font-bold text-xs uppercase rounded-xl transition flex items-center justify-center gap-2" href="tel:+92812086739">
+<i class="fa-solid fa-phone"></i> Call: +92 81 2086739
+            </a>
+</div>
+</div>
+<!-- Branch 5: Shahbaz Town Branch -->
+<div class="bg-brand-dark rounded-2xl p-6 border border-white/10 hover:border-brand-yellow/40 transition flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-start mb-2">
+<span class="px-2.5 py-0.5 rounded bg-brand-yellow/20 text-brand-yellow text-[11px] font-bold uppercase">Executive Dining</span>
+<span class="text-xs text-green-400 font-semibold flex items-center gap-1"><i class="fa-solid fa-circle text-[8px]"></i> Open Now</span>
+</div>
+<h3 class="font-heading text-2xl font-bold text-white mt-2">Shahbaz Town Branch</h3>
+<p class="text-xs text-gray-400 mt-1 mb-4 flex items-center gap-1.5">
+<i class="fa-solid fa-location-pin text-brand-yellow"></i> Shahbaz Town Commercial Area, Quetta
+            </p>
+<div class="space-y-1.5 text-xs text-gray-300 border-t border-white/10 pt-3">
+<div class="flex items-center gap-2">
+<i class="fa-solid fa-clock text-gray-500 w-4"></i> 11:00 AM - 12:00 AM (Midnight)
+              </div>
+<div class="flex items-center gap-2">
+<i class="fa-solid fa-utensils text-gray-500 w-4"></i> Premium Dining &amp; Dedicated Family Hall
+              </div>
+</div>
+</div>
+<div class="pt-6">
+<a class="w-full py-3 bg-white/10 hover:bg-brand-yellow hover:text-black text-white font-heading font-bold text-xs uppercase rounded-xl transition flex items-center justify-center gap-2" href="tel:+92812853377">
+<i class="fa-solid fa-phone"></i> Call: +92 81 2853377
+            </a>
+</div>
+</div>
+<!-- Upcoming & Expanding Network Card -->
+<div class="bg-gradient-to-br from-brand-charcoal to-brand-dark rounded-2xl p-6 border border-brand-yellow/30 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-start mb-2">
+<span class="px-2.5 py-0.5 rounded bg-brand-yellow text-black text-[11px] font-extrabold uppercase">Growth Network</span>
+<span class="text-xs text-brand-yellow font-semibold">Active Delivery</span>
+</div>
+<h3 class="font-heading text-2xl font-bold text-white mt-2">Expanding Delivery Hubs</h3>
+<p class="text-xs text-gray-300 mt-2 mb-4 leading-relaxed">
+              We now provide express dispatch to surrounding sectors:
+            </p>
+<div class="grid grid-cols-2 gap-2 text-xs text-gray-300">
+<div class="bg-white/5 p-2 rounded border border-white/5"><i class="fa-solid fa-check text-brand-yellow mr-1"></i> DHA Quetta</div>
+<div class="bg-white/5 p-2 rounded border border-white/5"><i class="fa-solid fa-check text-brand-yellow mr-1"></i> Chaman Scheme</div>
+<div class="bg-white/5 p-2 rounded border border-white/5"><i class="fa-solid fa-check text-brand-yellow mr-1"></i> WAPDA Colony</div>
+<div class="bg-white/5 p-2 rounded border border-white/5"><i class="fa-solid fa-check text-brand-yellow mr-1"></i> Labour Colony</div>
+</div>
+</div>
+<div class="pt-6">
+<a class="w-full py-3 border border-brand-yellow text-brand-yellow hover:bg-brand-yellow hover:text-black font-heading font-bold text-xs uppercase rounded-xl transition flex items-center justify-center gap-2" href="tel:+923433733272">
+<i class="fa-solid fa-phone-volume"></i> Mobile: +92 343 3733272
+            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: QuettaBranchesDirectory -->
+<!-- BEGIN: OrderCTASection -->
+<section class="py-16 bg-gradient-to-r from-brand-yellow via-[#ffd026] to-brand-yellow text-black relative">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
+<span class="font-extrabold text-xs tracking-widest uppercase bg-black text-brand-yellow px-3 py-1 rounded-full">
+        Hot &amp; Fresh Right To Your Doorstep
+      </span>
+<h2 class="font-heading text-4xl sm:text-6xl font-extrabold uppercase tracking-tight text-black">
+        CRAVING THE BEST PIZZA IN TOWN?
+      </h2>
+<p class="text-base sm:text-lg max-w-2xl mx-auto text-black/80 font-medium">
+        Order directly from our central telephone lines or visit your closest 4 Brothers Family Hall today!
+      </p>
+<div class="flex flex-wrap justify-center items-center gap-4 pt-2">
+<a class="px-8 py-4 rounded-xl bg-black text-brand-yellow font-heading font-extrabold text-base uppercase hover:bg-gray-900 transition flex items-center gap-2 shadow-2xl" href="tel:+92812853377">
+<i class="fa-solid fa-phone"></i> Landline: 081-2853377
+        </a>
+<a class="px-8 py-4 rounded-xl bg-white text-black font-heading font-extrabold text-base uppercase hover:bg-gray-100 transition flex items-center gap-2 shadow-2xl" href="tel:+923433733272">
+<i class="fa-solid fa-mobile-screen"></i> Mobile: 0343-3733272
+        </a>
+</div>
+</div>
+</section>
+<!-- END: OrderCTASection -->
+<!-- BEGIN: Footer -->
+<footer class="bg-black text-gray-400 pt-16 pb-12 border-t border-white/10">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-white/10">
+<!-- Brand identity col -->
+<div class="space-y-4">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-brand-yellow flex items-center justify-center font-heading font-extrabold text-xl text-black">
+              4B
+            </div>
+<div>
+<span class="font-heading text-xl font-bold text-white block leading-none">4 BROTHERS PIZZA</span>
+<span class="text-[10px] tracking-widest text-brand-yellow uppercase">Best Pizza in Town</span>
+</div>
+</div>
+<p class="text-xs text-gray-400 leading-relaxed">
+            The heart of authentic pizza craftsmanship in Quetta. Known for our signature Crown Crust, zesty Zingers, and warm Family Hall hospitality.
+          </p>
+<div class="flex items-center gap-3 text-sm text-gray-300">
+<a aria-label="4B Pizza Facebook" class="w-9 h-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:text-brand-yellow hover:border-brand-yellow transition" href="https://facebook.com" rel="noopener noreferrer" target="_blank">
+<i class="fa-brands fa-facebook-f"></i>
+</a>
+<a aria-label="4 Brothers Pizza Instagram" class="w-9 h-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:text-brand-yellow hover:border-brand-yellow transition" href="https://instagram.com" rel="noopener noreferrer" target="_blank">
+<i class="fa-brands fa-instagram"></i>
+</a>
+<a aria-label="Call Direct" class="w-9 h-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:text-brand-yellow hover:border-brand-yellow transition" href="tel:+92812853377">
+<i class="fa-solid fa-phone"></i>
+</a>
+</div>
+</div>
+<!-- Quick Links -->
+<div class="space-y-3">
+<h4 class="font-heading text-white text-base font-bold uppercase tracking-wider">Quick Navigation</h4>
+<ul class="space-y-2 text-xs">
+<li><a class="hover:text-brand-yellow transition" href="#signature-deals">Menu &amp; Popular Deals</a></li>
+<li><a class="hover:text-brand-yellow transition" href="#crown-crust">Crown Crust Specials</a></li>
+<li><a class="hover:text-brand-yellow transition" href="#family-dining">Family Hall Reservation</a></li>
+<li><a class="hover:text-brand-yellow transition" href="#branches">Quetta Branches Directory</a></li>
+<li><a class="hover:text-brand-yellow transition" href="#fast-food">Zinger Combos &amp; Platters</a></li>
+</ul>
+</div>
+<!-- Operating Hours -->
+<div class="space-y-3">
+<h4 class="font-heading text-white text-base font-bold uppercase tracking-wider">Store Timings</h4>
+<div class="space-y-2 text-xs">
+<p class="flex justify-between border-b border-white/5 pb-1.5">
+<span>Monday - Sunday:</span>
+<span class="text-white font-medium">11:00 AM - 12:00 AM</span>
+</p>
+<p class="flex justify-between border-b border-white/5 pb-1.5">
+<span>Friday Lunch &amp; Dine-in:</span>
+<span class="text-white font-medium">Open Post-Jummah</span>
+</p>
+<p class="flex justify-between border-b border-white/5 pb-1.5">
+<span>Home Delivery:</span>
+<span class="text-brand-yellow font-medium">Continuous Service</span>
+</p>
+</div>
+</div>
+<!-- Contact Helplines -->
+<div class="space-y-3">
+<h4 class="font-heading text-white text-base font-bold uppercase tracking-wider">Official Helplines</h4>
+<ul class="space-y-2.5 text-xs">
+<li class="flex items-center gap-2">
+<i class="fa-solid fa-phone text-brand-yellow"></i>
+<a class="hover:text-white transition" href="tel:+92812853377">+92 81 2853377 (Spinny Road)</a>
+</li>
+<li class="flex items-center gap-2">
+<i class="fa-solid fa-mobile-screen text-brand-yellow"></i>
+<a class="hover:text-white transition" href="tel:+923433733272">+92 343 3733272 (Cell / WhatsApp)</a>
+</li>
+<li class="flex items-center gap-2">
+<i class="fa-solid fa-phone text-brand-yellow"></i>
+<a class="hover:text-white transition" href="tel:+92812082528">+92 81 2082528 (Nawa Killi)</a>
+</li>
+<li class="flex items-center gap-2">
+<i class="fa-solid fa-location-dot text-brand-yellow"></i>
+<span>Spinny Road / Shahbaz Town / Nawa Killi, Quetta</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- Copyright bar -->
+<div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500 gap-4">
+<p>© 2025 4 BROTHERS PIZZA ("Best Pizza in Town"). All Rights Reserved.</p>
+<p class="flex items-center gap-2">
+<span>Designed with Quetta Hospitality</span>
+<span>&bull;</span>
+<span class="text-brand-yellow font-medium">Family Hall &amp; Express Delivery</span>
+</p>
+</div>
+</div>
+</footer>
+<!-- END: Footer -->
+<!-- BEGIN: InteractiveScripts -->
+<script data-purpose="mobile-menu-toggle">
+    // Toggle mobile navigation drawer
+    const menuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    if (menuBtn && mobileMenu) {
+      menuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+
+      // Auto close when link clicked
+      const links = mobileMenu.querySelectorAll('a');
+      links.forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.add('hidden');
+        });
+      });
+    }
+  </script>
+<!-- END: InteractiveScripts -->
+<!-- 3D Canvas Scroll Deconstruction & Chapter Animation Script -->
+<script>
+(function() {
+  const TOTAL_FRAMES = 240;
+  const FRAME_PATH = (i) => `./ezgif-8237447c26ebd107-jpg/ezgif-frame-${String(i).padStart(3, '0')}.jpg`;
+
+  const canvas = document.getElementById('pizza-canvas');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  const scrollBox = document.getElementById('3d-scroll-animation');
+
+  const chap1 = document.getElementById('story-chap-1');
+  const chap2 = document.getElementById('story-chap-2');
+  const chap3 = document.getElementById('story-chap-3');
+
+  const images = [];
+  let targetFrame = 1;
+  let currentFrame = 1;
+
+  function resizeCanvas() {
+    const dpr = window.devicePixelRatio || 1;
+    canvas.width = Math.floor(window.innerWidth * dpr);
+    canvas.height = Math.floor(window.innerHeight * dpr);
+    render(Math.round(currentFrame));
+  }
+
+  function render(frameIndex) {
+    const img = images[frameIndex];
+    if (!img || !img.complete || img.naturalWidth === 0) return;
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    const scale = Math.max(canvas.width / img.naturalWidth, canvas.height / img.naturalHeight);
+    const renderW = img.naturalWidth * scale;
+    const renderH = img.naturalHeight * scale;
+    const offsetX = (canvas.width - renderW) / 2;
+    const offsetY = (canvas.height - renderH) / 2;
+    ctx.drawImage(img, offsetX, offsetY, renderW, renderH);
+  }
+
+  for (let i = 1; i <= TOTAL_FRAMES; i++) {
+    const img = new Image();
+    img.src = FRAME_PATH(i);
+    img.onload = () => { if (i === 1) render(1); };
+    images[i] = img;
+  }
+
+  function tick() {
+    const diff = targetFrame - currentFrame;
+    if (Math.abs(diff) > 0.01) {
+      currentFrame += diff * 0.15;
+      render(Math.round(currentFrame));
+    }
+    requestAnimationFrame(tick);
+  }
+  tick();
+
+  window.addEventListener('scroll', () => {
+    if (!scrollBox) return;
+    const top = scrollBox.offsetTop;
+    const height = scrollBox.offsetHeight - window.innerHeight;
+    const scrollY = window.pageYOffset || document.documentElement.scrollTop;
+    
+    // Normalized progress in 3D section (0 to 1)
+    const rawProgress = (scrollY - top) / height;
+    const progress = Math.max(0, Math.min(1, rawProgress));
+    targetFrame = 1 + progress * (TOTAL_FRAMES - 1);
+
+    // Sync storytelling overlay chapters
+    if (rawProgress >= 0.02 && rawProgress <= 0.28) {
+      chap1.classList.remove('opacity-0', 'translate-y-8');
+      chap1.classList.add('opacity-100', 'translate-y-0');
+    } else {
+      chap1.classList.add('opacity-0', 'translate-y-8');
+      chap1.classList.remove('opacity-100', 'translate-y-0');
+    }
+
+    if (rawProgress >= 0.36 && rawProgress <= 0.65) {
+      chap2.classList.remove('opacity-0', 'translate-y-8');
+      chap2.classList.add('opacity-100', 'translate-y-0');
+    } else {
+      chap2.classList.add('opacity-0', 'translate-y-8');
+      chap2.classList.remove('opacity-100', 'translate-y-0');
+    }
+
+    if (rawProgress >= 0.72 && rawProgress <= 0.98) {
+      chap3.classList.remove('opacity-0', 'translate-y-8');
+      chap3.classList.add('opacity-100', 'translate-y-0');
+    } else {
+      chap3.classList.add('opacity-0', 'translate-y-8');
+      chap3.classList.remove('opacity-100', 'translate-y-0');
+    }
+  }, { passive: true });
+
+  window.addEventListener('resize', resizeCanvas);
+  resizeCanvas();
+})();
+</script>
+</body></html>
