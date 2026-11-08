@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-brand-dark text-gray-200 antialiased;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'Oswald', sans-serif;
+  }
+  ::selection {
+    @apply bg-brand-yellow text-black;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0b0c0e;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2a2c31;
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffc800;
+  }
+  select.input option {
+    background-color: #121316;
+    color: #e5e7eb;
+  }
+  input[type='date'] {
+    color-scheme: dark;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 font-heading text-sm font-bold uppercase tracking-wide transition disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply bg-brand-yellow text-black shadow-glow-yellow hover:bg-white;
+  }
+  .btn-outline {
+    @apply border border-white/20 text-white hover:border-brand-yellow hover:text-brand-yellow;
+  }
+  .btn-ghost {
+    @apply text-gray-300 hover:text-brand-yellow;
+  }
+  .btn-danger {
+    @apply border border-red-500/30 bg-red-500/15 text-red-400 hover:bg-red-500/25;
+  }
+  .btn-sm {
+    @apply px-3.5 py-2 text-xs;
+  }
+  .input {
+    @apply w-full rounded-xl border border-white/15 bg-white/5 px-4 py-3 text-sm text-white placeholder-gray-500 outline-none transition focus:border-brand-yellow focus:ring-1 focus:ring-brand-yellow/40;
+  }
+  .label {
+    @apply mb-1.5 block text-xs font-semibold uppercase tracking-wider text-gray-400;
+  }
+  .card {
+    @apply rounded-2xl border border-white/10 bg-brand-charcoal;
+  }
+  .card-hover {
+    @apply transition hover:border-brand-yellow/50;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-brand-yellow/25 bg-brand-yellow/10 px-2.5 py-1 text-[11px] font-semibold text-brand-yellow;
+  }
+  .section-title {
+    @apply font-heading text-3xl font-extrabold uppercase text-white sm:text-5xl;
+  }
+  .muted {
+    @apply text-sm text-gray-400;
+  }
+  .neon-text-glow {
+    text-shadow:
+      0 0 8px rgba(255, 200, 0, 0.7),
+      0 0 18px rgba(255, 180, 0, 0.4);
+  }
+  .admin-link {
+    @apply flex items-center gap-3 rounded-xl px-3.5 py-2.5 text-sm font-medium text-gray-400 transition hover:bg-white/5 hover:text-white;
+  }
+  .admin-link-active {
+    @apply bg-brand-yellow/10 text-brand-yellow hover:bg-brand-yellow/10 hover:text-brand-yellow;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
